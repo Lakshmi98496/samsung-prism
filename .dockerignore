@@ -1,0 +1,10 @@
+.git
+.venv
+.env
+.build
+reference
+submission
+node_modules
+__pycache__
+*.sqlite3*
+.local-model

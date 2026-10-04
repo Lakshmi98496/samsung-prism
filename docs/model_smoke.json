@@ -1,0 +1,166 @@
+{
+  "evaluation": "Live two-stage smoke test on one synthetic SIIS snippet, not device accuracy",
+  "runtime": "llama.cpp b11388 CPU",
+  "model": "Qwen2.5-0.5B-Instruct Q4_K_M",
+  "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+  "cold": {
+    "query": "My phone cannot connect to Wi-Fi. How do I check it?",
+    "response": {
+      "contexts": [
+        {
+          "goal": "Follow these steps to perform this Wi fi connection Troubleshooting",
+          "title": "Wi fi connection",
+          "score": 0.8,
+          "actions": [
+            {
+              "actionName": "Check Wi-Fi",
+              "description": "It will guide the troubleshooting process",
+              "category": "auto",
+              "stepGroups": [
+                {
+                  "steps": [
+                    "Navigate to Settings.",
+                    "Tap Connections.",
+                    "Tap Wi-Fi."
+                  ],
+                  "actionableDeeplink": {
+                    "deeplink": "voiceassist://masked/act/cb03ac7425",
+                    "description": "Opens the Wi-Fi settings page in device Settings on the device.",
+                    "message": "View WiFi Settings",
+                    "originalType": "onClickURL"
+                  },
+                  "validationDeeplink": {
+                    "deeplink": "voiceassist://masked/val/9f9c37507d",
+                    "key": "Wi-Fi"
+                  }
+                }
+              ]
+            },
+            {
+              "actionName": "Restart Phone",
+              "description": "It will guide the troubleshooting process",
+              "category": "critical",
+              "stepGroups": [
+                {
+                  "steps": [
+                    "Restart your phone."
+                  ],
+                  "actionableDeeplink": null,
+                  "validationDeeplink": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "cache_hit": false,
+      "latency_ms": 13969.419,
+      "model": "qwen2.5-0.5b",
+      "cost_usd": null,
+      "token_usage": {
+        "prompt_tokens": 489,
+        "completion_tokens": 446
+      },
+      "fallback": null,
+      "source_id": null,
+      "retrieval_score": 0.0,
+      "technical_query": "Check Wi-Fi connection",
+      "query_variations": [
+        "Restart phone",
+        "Restart phone and check",
+        "Check phone and restart",
+        "Check phone and restart phone",
+        "Restart phone and check Wi-Fi",
+        "Restart phone and check Wi-Fi connection",
+        "Troubleshoot Check Wi-Fi connection",
+        "Please help me resolve Check Wi-Fi connection",
+        "My device has this issue: Check Wi-Fi connection",
+        "Check Wi-Fi connection fix settings"
+      ],
+      "variation_origin": "model-and-templates",
+      "retrieval": "tfidf-synonyms"
+    }
+  },
+  "repeat": {
+    "query": "My phone cannot connect to Wi-Fi. How do I check it?",
+    "response": {
+      "contexts": [
+        {
+          "goal": "Follow these steps to perform this Wi fi connection Troubleshooting",
+          "title": "Wi fi connection",
+          "score": 0.8,
+          "actions": [
+            {
+              "actionName": "Check Wi-Fi",
+              "description": "It will guide the troubleshooting process",
+              "category": "auto",
+              "stepGroups": [
+                {
+                  "steps": [
+                    "Navigate to Settings.",
+                    "Tap Connections.",
+                    "Tap Wi-Fi."
+                  ],
+                  "actionableDeeplink": {
+                    "deeplink": "voiceassist://masked/act/cb03ac7425",
+                    "description": "Opens the Wi-Fi settings page in device Settings on the device.",
+                    "message": "View WiFi Settings",
+                    "originalType": "onClickURL"
+                  },
+                  "validationDeeplink": {
+                    "deeplink": "voiceassist://masked/val/9f9c37507d",
+                    "key": "Wi-Fi"
+                  }
+                }
+              ]
+            },
+            {
+              "actionName": "Restart Phone",
+              "description": "It will guide the troubleshooting process",
+              "category": "critical",
+              "stepGroups": [
+                {
+                  "steps": [
+                    "Restart your phone."
+                  ],
+                  "actionableDeeplink": null,
+                  "validationDeeplink": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "cache_hit": true,
+      "latency_ms": 0.28,
+      "model": "qwen2.5-0.5b",
+      "cost_usd": 0.0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      },
+      "fallback": null,
+      "source_id": null,
+      "retrieval_score": 0.0,
+      "technical_query": "Check Wi-Fi connection",
+      "query_variations": [
+        "Restart phone",
+        "Restart phone and check",
+        "Check phone and restart",
+        "Check phone and restart phone",
+        "Restart phone and check Wi-Fi",
+        "Restart phone and check Wi-Fi connection",
+        "Troubleshoot Check Wi-Fi connection",
+        "Please help me resolve Check Wi-Fi connection",
+        "My device has this issue: Check Wi-Fi connection",
+        "Check Wi-Fi connection fix settings"
+      ],
+      "variation_origin": "model-and-templates",
+      "retrieval": "tfidf-synonyms"
+    }
+  }
+}
