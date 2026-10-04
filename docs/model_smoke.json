@@ -56,12 +56,12 @@
     },
     "meta": {
       "cache_hit": false,
-      "latency_ms": 13969.419,
+      "latency_ms": 9428.908,
       "model": "qwen2.5-0.5b",
       "cost_usd": null,
       "token_usage": {
         "prompt_tokens": 489,
-        "completion_tokens": 446
+        "completion_tokens": 442
       },
       "fallback": null,
       "source_id": null,
@@ -136,7 +136,7 @@
     },
     "meta": {
       "cache_hit": true,
-      "latency_ms": 0.28,
+      "latency_ms": 0.347,
       "model": "qwen2.5-0.5b",
       "cost_usd": 0.0,
       "token_usage": {

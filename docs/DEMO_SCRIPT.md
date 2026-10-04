@@ -1,5 +1,7 @@
 # Demo recording plan (under five minutes)
 
+For the new deck, use [the member-by-member speaking script](TEAM_PRESENTATION_SCRIPT.md), also embedded in the PPT speaker notes. It assigns slides 1–3 to Vaibhavi, 4–6 to Lakshmi and 7–12 to Vivek and includes a shorter live demonstration. The sequence below is an alternative product-only recording plan; do not combine both scripts into one five-minute video.
+
 Start the API with `python -m uvicorn app.main:app --port 8000`. Open http://127.0.0.1:8000.
 
 1. **0:00–0:35** Introduce The Semicolons, Theme 2 and the customer support problem. Explain that SIIS is the only source of instructions and the catalog contains masked evaluation URIs.

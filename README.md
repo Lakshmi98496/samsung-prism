@@ -17,6 +17,10 @@ python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 On Linux/macOS use `source .venv/bin/activate`. Open **http://127.0.0.1:8000** for the demo, **/docs** for the API explorer.
 
+The responsive dashboard displays the complaint alongside an expandable plan, with separate catalog mapping details, runtime metadata, session history and JSON copy/download controls. Custom SIIS input accepts an article title and source content.
+
+![Dashboard preview](submission/dashboard-preview.png)
+
 ```powershell
 python -m pytest -q
 python scripts/benchmark.py
@@ -109,6 +113,8 @@ The organiser's catalog has **578 entries**, including masked URIs. They are eva
 - Vivek Vaddipalli — vv8326@srmist.edu.in
 
 Deck: `submission/SRMIST_TheSemicolons_Submission.pptx`. Demo link: `submission/DEMO_LINK.md` (pending). Recording script: `docs/DEMO_SCRIPT.md`. AI disclosure draft: `docs/AI_DISCLOSURE.md`. Review and remaining requirements: `docs/SUBMISSION_REVIEW.md`.
+
+The deck preserves the supplied template's 12 topics with navy cover/closing slides and ivory content backgrounds. No fixed-background restriction was found in the supplied presentation guidance. [Member speaking script](docs/TEAM_PRESENTATION_SCRIPT.md): Vaibhavi presents slides 1–3, Lakshmi 4–6, and Vivek 7–12. The same slide-specific content appears in the PowerPoint speaker notes; allow about 4:45 including the brief demo and rehearse to stay under five minutes.
 
 Once **all final artifacts and the demo link** are committed:
 
