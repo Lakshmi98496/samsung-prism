@@ -1,5 +1,3 @@
 # Demo video
 
-**Pending: the team must record and upload the running prototype.**
-
-Replace this text with the accessible YouTube or Drive link before final submission.
+[Watch The Semicolons' prototype demonstration](https://drive.google.com/file/d/1TyynOnQRxBLWi9e1GKVGhuEjHCTOijAs/view?usp=sharing)

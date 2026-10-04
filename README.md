@@ -112,19 +112,11 @@ The organiser's catalog has **578 entries**, including masked URIs. They are eva
 - Kottadi Lakshmi — lk9601@srmist.edu.in
 - Vivek Vaddipalli — vv8326@srmist.edu.in
 
-Deck: `submission/SRMIST_TheSemicolons_Submission.pptx`. Demo link: `submission/DEMO_LINK.md` (pending). AI disclosure draft: `docs/AI_DISCLOSURE.md`.
+Deck: `submission/SRMIST_TheSemicolons_Submission.pptx`. [Demo video](https://drive.google.com/file/d/1TyynOnQRxBLWi9e1GKVGhuEjHCTOijAs/view?usp=sharing), also recorded in `submission/DEMO_LINK.md`. AI disclosure draft: `docs/AI_DISCLOSURE.md`.
 
 The presentation covers the problem, architecture, running demo, technology, measured results and roadmap. Its illustrations depict the concept; the product walkthrough uses a real dashboard screenshot.
 
-Once **all final artifacts and the demo link** are committed:
-
-```text
-git tag PRISM_GENAI_HACKATHON_Y2026
-git push origin main
-git push origin PRISM_GENAI_HACKATHON_Y2026
-```
-
-The tagged commit is what the organiser judges. Do not create the final tag while mandatory artifacts are pending.
+Submission tag: `PRISM_GENAI_HACKATHON_Y2026`. The tag identifies the submitted snapshot containing the code, presentation and video link. The organiser judges the tagged commit. The AI disclosure currently remains a draft requiring the team's review and signoff.
 
 ## Data attribution
 
