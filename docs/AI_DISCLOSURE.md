@@ -1,7 +1,9 @@
 # AI usage disclosure draft
 
-Team: The Semicolons  
-Project: Smart Guided Troubleshooting Engine  
+Team: The Semicolons
+
+Project: Smart Guided Troubleshooting Engine
+
 Institution: SRM Institute of Science and Technology, Chennai
 
 AI used in development: **Yes**. Codex assisted with requirements inspection, Python API and demo implementation, test generation, documentation and presentation revisions. The team's original PPT supplied the concept and team details. The source troubleshooting dataset and deeplink catalog came from the organiser's archive.
