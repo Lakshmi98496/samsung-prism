@@ -112,9 +112,9 @@ The organiser's catalog has **578 entries**, including masked URIs. They are eva
 - Kottadi Lakshmi — lk9601@srmist.edu.in
 - Vivek Vaddipalli — vv8326@srmist.edu.in
 
-Deck: `submission/SRMIST_TheSemicolons_Submission.pptx`. Demo link: `submission/DEMO_LINK.md` (pending). Recording script: `docs/DEMO_SCRIPT.md`. AI disclosure draft: `docs/AI_DISCLOSURE.md`. Review and remaining requirements: `docs/SUBMISSION_REVIEW.md`.
+Deck: `submission/SRMIST_TheSemicolons_Submission.pptx`. Demo link: `submission/DEMO_LINK.md` (pending). AI disclosure draft: `docs/AI_DISCLOSURE.md`.
 
-The deck preserves the supplied template's 12 topics with navy cover/closing slides and ivory content backgrounds. No fixed-background restriction was found in the supplied presentation guidance. [Member speaking script](docs/TEAM_PRESENTATION_SCRIPT.md): Vaibhavi presents slides 1–3, Lakshmi 4–6, and Vivek 7–12. The same slide-specific content appears in the PowerPoint speaker notes; allow about 4:45 including the brief demo and rehearse to stay under five minutes.
+The presentation covers the problem, architecture, running demo, technology, measured results and roadmap. Its illustrations depict the concept; the product walkthrough uses a real dashboard screenshot.
 
 Once **all final artifacts and the demo link** are committed:
 

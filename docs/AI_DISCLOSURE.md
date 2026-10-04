@@ -8,6 +8,8 @@ Institution: SRM Institute of Science and Technology, Chennai
 
 AI used in development: **Yes**. Codex assisted with requirements inspection, Python API and demo implementation, test generation, documentation and presentation revisions. The team's original PPT supplied the concept and team details. The source troubleshooting dataset and deeplink catalog came from the organiser's archive.
 
+Presentation visuals: AI image generation produced conceptual device and source/catalog illustrations and an illustrative support scene. These are not photographs of the team's implementation or users. The product walkthrough uses an actual dashboard screenshot.
+
 Primary request: review the hackathon documents and original deck, build the Theme 2 project, improve the presentation, and prepare a GitHub submission.
 
 Feature origin: API, extractive baseline, retrieval/cache, guard checks, optional model integration, demo page and automated tests: AI assisted. Team members must review and understand the implementation before submitting.
